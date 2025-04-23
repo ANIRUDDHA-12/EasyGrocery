@@ -69,11 +69,11 @@ const ProductCard = ({ product }) => {
                                 <div className='flex justify-center space-x-5'>
                                     {/* Amount */}
                                     <span className='block text-sm md:text-xs lg:text-sm'>
-                                        ± {quantity} {unit}
+                                         {quantity} {unit}
                                     </span>
                                     {/* Price */}
                                     <span className='block text-sm md:text-xs lg:text-sm'>
-                                        $ {price} USD
+                                         {price} INR
                                     </span>
                                 </div>
 
