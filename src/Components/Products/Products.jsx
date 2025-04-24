@@ -14,8 +14,8 @@ const Products = ({ categoryProducts }) => {
     // Get Products 
     useEffect(() => {
         const getData = async function () {
-            const allProductsUrl = 'https://api.npoint.io/bc3d1b1bc1a0fde36701';
-            const categoryProductsUrl = `https://api.npoint.io/bc3d1b1bc1a0fde36701/${categoryName === 'meat' ? 0
+            const allProductsUrl = 'https://api.npoint.io/7e6bb8899b0c1de84718';
+            const categoryProductsUrl = `https://api.npoint.io/7e6bb8899b0c1de84718/${categoryName === 'meat' ? 0
                 : categoryName === 'vegetables' ? 1
                     : categoryName === 'fruits' ? 2
                         : categoryName === 'dairy' ? 3
